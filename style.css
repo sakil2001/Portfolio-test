@@ -890,7 +890,7 @@ color: var(--themeColor);
 #contact .contact-row .contact-right form textarea{
     display: block;
     width: 100%;
-    margin: 5px 0;
+    margin: 5px 5px;
     font-size: 15px;
     font-weight: 500;
     color: var(--textColor);
