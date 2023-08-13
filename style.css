@@ -941,8 +941,8 @@ color: var(--themeColor);
 @media only screen and (max-width:500px){
     #contact{
         padding: 50px 50px;
-        margin-left: 50px;
-        padding-left: 0px;
+        margin-right: 40px;
+        margin-left: 5px;
         
     }
     
