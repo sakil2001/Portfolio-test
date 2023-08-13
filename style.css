@@ -940,10 +940,7 @@ color: var(--themeColor);
 }
 @media only screen and (max-width:500px){
     #contact{
-        padding: 50px 30px;
-        margin-right: 20px;
-        margin-left: 5px;
-        
+        padding: 50px 10px;
     }
     
 }
