@@ -161,6 +161,14 @@ header .footer p a{
     display: none;
     z-index: 999;
  }
+ /* Mobile View */
+ @media only screen and (max-width:500px){
+    #MenuBtn{
+       
+        right: 60px;
+        
+     }
+ }
  /* Dark Theme START */
  #DarkBtn{
     position: fixed;
@@ -176,6 +184,13 @@ header .footer p a{
     border-radius: 50%;
     box-shadow: 0 0 20px rgb(0,0,0,20%);
     z-index: 999;
+ }
+ @media only screen and (max-width:500px){
+    #DarkBtn{
+       
+        right: 120px;
+        
+     }
  }
 
   /* Dark Theme END */
@@ -905,7 +920,7 @@ color: var(--themeColor);
 #contact .contact-row .contact-right form textarea:focus{
     border: 2px solid var(--themeColor);
 }
-#contact .contact-row .contact-right form input[type=submit]{
+#contact .contact-row .contact-right form input[type=button]{
     background-color: var(--themeColor);
     color: var(--bgColor);
     border: 2px solid var(--themeColor);

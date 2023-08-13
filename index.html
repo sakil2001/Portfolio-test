@@ -630,10 +630,10 @@
 
             <form action="">
                 <input type="text" name="name" id="name" placeholder="Your Name">
-                <input type="email" name="email" id="sakil" placeholder="Your Email">
+                <input type="email" name="email" id="" placeholder="Your Email">
                 <input type="text" name="subject" id="subject" placeholder="Subject">
                 <textarea name="msg" id="msg"  rows="9" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message">
+                <input type="button" value="Send Message" onclick="sendEmail()" >
 
 
             </form>
@@ -643,6 +643,8 @@
       </section>
       <!-- ======= Contact Section END ======== -->
     </main>
+    <!-- Send message JS -->
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- Type.JS File (For Typing Effect) -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>

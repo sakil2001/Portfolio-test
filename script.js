@@ -51,3 +51,27 @@ Dark.onclick=function(){
         
     // }
 }
+
+// Send Message
+
+function sendEmail(){
+    var Name=document.getElementById("name").value;
+    var Email=document.getElementById("email").value;
+    var Subject=document.getElementById("subject").value;
+    var Message=document.getElementById("msg").value;
+
+    var body="Name: " + Name + "<br/> Email:" + Email + "<br/> Subject:" + Subject + "<br/> Message:" + Message;
+    console.log(body);
+    Email.send({
+        
+        Host : "smtp.elasticemail.com",
+        Username : "sakilahamedportfolio23@gmail.com",
+        Password : "C2F366235CDECA6266B91B4160DCAD7EBE20",
+        To : 'sakilahamedportfolio23@gmail.com',
+        From :"sakilahamedportfolio23@gmail.com",
+        Subject : Subject,
+        Body : body
+    }).then(
+      message => alert("Message Sent Succesfully")
+    );
+}
