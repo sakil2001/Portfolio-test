@@ -525,7 +525,7 @@ color: var(--themeColor);
     background-color: var(--themeColor);
     border-radius: 20px;
 }
- /* Mobile View */
+ /* Mobile View   */
 @media only screen and (max-width:450px){
    #skill{
     padding: 50px 15px;
